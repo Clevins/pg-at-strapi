@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "all_blogs",
+  "info": {
+    "name": "AllBlogs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blogs_Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "category1.hero"
+    }
+  }
+}

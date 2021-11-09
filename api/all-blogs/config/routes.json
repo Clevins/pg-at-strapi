@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/all-blogs",
+      "handler": "all-blogs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/all-blogs",
+      "handler": "all-blogs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/all-blogs",
+      "handler": "all-blogs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -12,13 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Home_SocialLinks": {
-      "type": "component",
-      "repeatable": true,
-      "component": "category1.social-links",
-      "max": 4,
-      "required": false
-    },
     "Home_Hero": {
       "type": "component",
       "repeatable": false,
