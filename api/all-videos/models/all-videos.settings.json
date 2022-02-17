@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "all_videos",
+  "info": {
+    "name": "AllVideos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Videos_Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "category1.hero"
+    },
+    "video_shelves": {
+      "collection": "video-shelves"
+    },
+    "all_videos": {
+      "collection": "videos"
+    }
+  }
+}
